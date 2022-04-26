@@ -5,6 +5,8 @@ import {
     Route
 } from 'react-router-dom';
 import NavbarCustom from 'components/NavbarCustom';
+import HomePage from 'pages/HomePage';
+import AboutPage from 'pages/AboutPage';
 
 const App = () => {
     return (
