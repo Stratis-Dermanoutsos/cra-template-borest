@@ -1,0 +1,29 @@
+{
+  "name": "borest",
+  "version": "1.0.0",
+  "author": "Stratis Dermanoutsos",
+  "license": "MIT",
+  "description": "Template for create-react-app",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stratis-Dermanoutsos/cra-template-borest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stratis-Dermanoutsos/cra-template-borest/issues"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "borest",
+    "bootstrap",
+    "typescript",
+    "redux",
+    "react-redux",
+    "react-router",
+    "react-router-dom",
+    "react-bootstrap",
+    "scss"
+  ]
+}
