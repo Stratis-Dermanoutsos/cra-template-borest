@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { Button, Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
+import { useDispatch } from 'react-redux';
 import TodoList from 'components/TodoList';
 import { addTodo } from 'features/todoSlice';
-import { useDispatch } from 'react-redux';
 
 const HomePage = () => {
     const dispatch = useDispatch();
@@ -21,7 +21,7 @@ const HomePage = () => {
             <h1>Home Page</h1>
             <Row>
                 <Col
-                    xs={{ span: 8, offset: 2 }}
+                    xs={{ span: 10, offset: 1 }}
                     md={{ span: 6, offset: 3 }}
                 >
                     <FloatingLabel
@@ -38,7 +38,14 @@ const HomePage = () => {
                     <Button size='lg' variant='primary' onClick={handleSubmit}>Add todo</Button>
                 </Col>
             </Row>
-            <TodoList />
+            <Row className='mt-5'>
+                <Col
+                    xs={{ span: 10, offset: 1 }}
+                    md={{ span: 6, offset: 3 }}
+                >
+                    <TodoList />
+                </Col>
+            </Row>
         </Container>
     );
 };
