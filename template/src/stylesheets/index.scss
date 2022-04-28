@@ -10,3 +10,53 @@ html {
 h1, h2, h3, h4, h5, h6, p, span {
     color: $text-regular;
 }
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: inherit;
+
+    &:hover {
+        color: inherit;
+    }
+}
+
+.rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+    background-clip: text;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bootstrap {
+    color: #8612FA;
+    font-weight: bold;
+}
+
+.react-bootstrap {
+    color: #61DAFB;
+    font-weight: bold;
+}
+
+.react-router {
+    color: #F44250;
+    font-weight: bold;
+}
+
+.redux {
+    color: #764ABC;
+    font-weight: bold;
+}
+
+.scss {
+    color: #CE649A;
+    font-weight: bold;
+}
+
+.typescript {
+    color: #3077C6;
+    font-weight: bold;
+}
