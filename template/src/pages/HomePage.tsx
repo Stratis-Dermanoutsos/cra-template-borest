@@ -18,7 +18,7 @@ const HomePage = () => {
 
     return (
         <Container className='mt-5 py-4'>
-            <h1>Home Page</h1>
+            <h1>Home</h1>
             <Row>
                 <Col
                     xs={{ span: 10, offset: 1 }}
