@@ -1,7 +1,7 @@
 # cra-template-borest
 
 [![npm version](https://img.shields.io/npm/v/cra-template-borest.svg?style=flat-square)](https://www.npmjs.com/package/cra-template-borest)
-[![npm downloads](https://img.shields.io/npm/dm/cra-template-borest.svg?style=flat-square)](https://www.npmjs.com/package/cra-template-borest)
+[![npm downloads](https://img.shields.io/npm/dt/cra-template-borest.svg?style=flat-square)](https://www.npmjs.com/package/cra-template-borest)
 
 ## Technologies
 
